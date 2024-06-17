@@ -1,8 +1,8 @@
-!pip install google-cloud-aiplatform --upgrade --user -q
-!pip install --upgrade langchain -q
-!pip install streamlit -q
-!pip install langchain-google-genai -q
-!pip install langchain_community -q
+pip install google-cloud-aiplatform --upgrade --user -q
+pip install --upgrade langchain -q
+pip install streamlit -q
+pip install langchain-google-genai -q
+pip install langchain_community -q
 
 def load_df(table_name):
    from google.cloud import bigquery

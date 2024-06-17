@@ -1,3 +1,5 @@
+from google.colab import auth
+auth.authenticate_user()
 
 def load_df(table_name):
    from google.cloud import bigquery
